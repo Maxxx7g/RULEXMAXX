@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAXXxESPORT Tournament Rules</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #f9f9f9, #fff);
+      color: #222;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+    section {
+      background: #fff;
+      margin-bottom: 25px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      animation: fadeInUp 0.5s ease;
+    }
+    section h2 {
+      margin-top: 0;
+      color: #111;
+      font-size: 22px;
+      border-left: 4px solid #444;
+      padding-left: 8px;
+    }
+    ul, ol {
+      padding-left: 20px;
+    }
+    .pill {
+      display: inline-block;
+      margin: 5px 5px 0 0;
+      padding: 6px 12px;
+      border-radius: 25px;
+      background: #eee;
+      font-size: 13px;
+    }
+    footer {
+      text-align: center;
+      font-size: 13px;
+      padding: 20px;
+      color: #666;
+    }
+    button {
+      padding: 10px 18px;
+      border-radius: 25px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .btn-main {
+      background: #222;
+      color: #fff;
+    }
+    .btn-sec {
+      background: #eee;
+      color: #333;
+    }
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎯 MAXXxESPORT</h1>
+    <nav>
+      <a href="#format">Format</a>
+      <a href="#rounds">Rounds</a>
+      <a href="#match-rules">Match Rules</a>
+      <a href="#general-rules">General</a>
+      <a href="#penalty">Penalty</a>
+    </nav>
+    <button class="btn-main" onclick="scrollToBottom()">Register</button>
+  </header>
+
+  <div class="container">
+
+    <section id="format">
+      <h2>⚔ Tournament Format (Knockout System)</h2>
+      <ul>
+        <li>Tournament <b>Knockout System</b> par hoga.</li>
+        <li>Har match me <b>haarne wala eliminate</b> ho jayega.</li>
+        <li><b>Jeetne wala</b> next round me qualify karega.</li>
+      </ul>
+    </section>
+
+    <section id="rounds">
+      <h2>🏁 Rounds Flow</h2>
+      <ol>
+        <li><b>Round 1</b> → Winners proceed to Quarter Finals</li>
+        <li><b>Quarter Finals</b> → Winners proceed to Semi Finals</li>
+        <li><b>Semi Finals</b> → Winners proceed to Final</li>
+        <li><b>Final</b> → Winner = 🏆 Tournament Champion</li>
+      </ol>
+    </section>
+
+    <section id="elimination">
+      <h2>🚫 Elimination Rule</h2>
+      <p>Ek baar <b>haar gaye</b> to dobara entry <b>nahi milegi</b>. Ye Single Elimination format hoga.</p>
+    </section>
+
+    <section id="match-rules">
+      <h2>📌 Match Rules</h2>
+      <ul>
+        <li>Mode: <b>Clash Squad (Custom)</b></li>
+        <li>Rounds: <b>15</b></li>
+        <li>Gloo Walls: <b>Max 3 per player</b></li>
+        <li>Body Damage: <b>Allowed</b> (Headshot-only OFF)</li>
+        <li>Character Skills: <b>OFF</b></li>
+        <li>Gun Skins: <b>OFF</b></li>
+        <li>Allowed Guns: <b>Desert Eagle, UMP, M1887, Woodpecker</b></li>
+      </ul>
+      <div>
+        <span class="pill">Single Elimination</span>
+        <span class="pill">15 Rounds</span>
+        <span class="pill">Skills OFF</span>
+        <span class="pill">Gun Skins OFF</span>
+      </div>
+    </section>
+
+    <section id="general-rules">
+      <h2>📜 General Rules</h2>
+      <ol>
+        <li><b>No Grenades</b> – Grenade ka use strictly banned.</li>
+        <li><b>No Roof-Top Camping</b> – Rooftop par fight lena allowed nahi.</li>
+        <li><b>No Wall Break</b> – Gloo wall todna mana hai.</li>
+        <li><b>No Wall Pack Abuse</b> – Glitch, pack, chipkana ya bandh karna mana hai.</li>
+        <li><b>No Hacks / Scripts</b> – Cheat ya third-party tool use par disqualification.</li>
+        <li><b>Eligibility</b> – Sirf <i>active subscribers</i> hi participate karenge.</li>
+      </ol>
+    </section>
+
+    <section id="penalty">
+      <h2>⚠️ Penalty & Disqualification</h2>
+      <ul>
+        <li>Rules todne par <b>instant disqualification</b> hoga.</li>
+        <li>Organiser ka <b>decision final</b> hoga.</li>
+      </ul>
+    </section>
+
+    <section style="text-align:center; background:#f5f5f5;">
+      <h2>🏆 Ready to Compete?</h2>
+      <p>Rules accept karke register karein. Fair play only!</p>
+      <button class="btn-main">Register Now</button>
+      <button class="btn-sec" onclick="window.scrollTo({top:0, behavior:'smooth'})">Back to Top</button>
+    </section>
+
+  </div>
+
+  <footer>
+    © <span id="year"></span> MAXXxESPORT • Fair Play • All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    function scrollToBottom() {
+      window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
+    }
+  </script>
+
+</body>
+</html>
